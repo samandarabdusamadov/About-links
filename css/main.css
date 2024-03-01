@@ -109,15 +109,16 @@ ul {
     column-gap: 20px;
 }
 
+.titles {
+    display: block;
+    display: flex;
+    column-gap: 17px;
+}
 .title {
     display: block;
     display: flex;
-    justify-content: center;
     column-gap: 17px;
 }
-
-.li {}
-
 .text {
     display: block;
     color: var(--kulrang);
@@ -126,6 +127,10 @@ ul {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transform: .3s;
+}
+.text:hover {
+    color: var(--black);
 }
 
 .top_right {
@@ -162,7 +167,6 @@ ul {
 /*Site container header hero*/
 .site__hero {
     display: flex;
-    column-gap: 0px;
 }
 
 .hero_text {}
@@ -294,12 +298,18 @@ ul {
 .class-flex {
     display: flex;
     column-gap: 10px;
+    /**/
+  
 }
 
-.main__class {}
+.main__class {
+   
+    
+}
 
 .main__class:nth-child(1) {
     padding-bottom: 90px;
+    
 
 }
 
@@ -458,4 +468,37 @@ ul {
     cursor: pointer;
 }
 
-.links {}
+
+.ul_lists {
+    display: flex;
+    column-gap: 23px;
+    padding-bottom: 67px;
+}
+.listy {
+  
+}
+.blocks {
+}
+.fab {
+    display: block;
+    display: flex;
+    color: var(--white);
+}
+.fab:hover{
+    color: var(--Blu);
+    cursor: pointer;
+}
+.fa-facebook-square {
+
+}
+.fa-2x {
+}
+.footer-icon {
+}
+.fa-twitter {
+}
+.fa-pinterest {
+}
+.fa-instagram {
+}
+
